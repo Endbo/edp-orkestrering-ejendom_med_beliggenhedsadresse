@@ -1,0 +1,118 @@
+{
+  "SamletFastEjendom": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "BFEnummer": 9135983,
+          "arbejderbolig": false,
+          "bygningPaaFremmedGrund": [],
+          "ejerlejlighed": [],
+          "erFaelleslod": false,
+          "forretningshaendelse": "Arealændring på Jordstykke",
+          "sekundaerForretningshaendelse": [],
+          "forretningsomraade": "52.20.05",
+          "forretningsproces": "Matrikulær sag",
+          "hovedejendomOpdeltIEjerlejligheder": false,
+          "id_lokalId": "9135983",
+          "id_namespace": "http://data.gov.dk/Matriklen/SamletFastEjendom",
+          "jordstykke": [
+            {
+              "type": "Jordstykke",
+              "properties": {
+                "arealberegningsmetode": "Areal beregnet efter opmåling - o",
+                "arealbetegnelse": null,
+                "arealtype": null,
+                "brugsretsareal": false,
+                "centroide": [
+                  {
+                    "geometri": "POINT(529789.95 6203312.611)",
+                    "senesteSagLokalId": "100131811",
+                    "status": "Gældende"
+                  }
+                ],
+                "delnummer": null,
+                "ejerlavskode": 1090460,
+                "ejerlavsnavn": "Velgårde By, Klovborg",
+                "faelleslod": false,
+                "forretningshaendelse": "Arealændring på Jordstykke",
+                "sekundaerForretningshaendelse": [],
+                "forretningsomraade": "52.20.05",
+                "forretningsproces": "Matrikulær sag",
+                "fredskov": {
+                  "fredskovsareal": null,
+                  "omfang": null
+                },
+                "id_lokalId": "2016976",
+                "id_namespace": "http://data.gov.dk/Matriklen/Jordstykke",
+                "jordrente": {
+                  "omfang": null
+                },
+                "klitfredning": {
+                  "klitfredningsareal": null,
+                  "omfang": null
+                },
+                "kommuneLokalId": "0756",
+                "majoratskov": {
+                  "majoratskovsnummer": null,
+                  "omfang": null
+                },
+                "matrikelnummer": "2a",
+                "paataenktHandling": null,
+                "regionLokalId": "1082",
+                "registreretAreal": 53184,
+                "registreringFra": "2019-10-10T14:40:11.288705+02:00",
+                "registreringTil": null,
+                "registreringsaktoer": "Matriklen",
+                "samletFastEjendomBFEnummer": 9135983,
+                "senesteSagLokalId": "100144425",
+                "skelforretningssagsLokalId": null,
+                "sognLokalId": "8005",
+                "stammerFraJordstykkeLokalId": null,
+                "status": "Gældende",
+                "stormfald": [],
+                "strandbeskyttelse": {
+                  "omfang": null,
+                  "strandbeskyttelsesareal": null
+                },
+                "supplerendeMaalingSagLokalId": null,
+                "vandarealinkludering": "ukendt",
+                "vejareal": "0",
+                "vejarealberegningsstatus": "vejareal beregnet",
+                "virkningFra": "2019-10-10T14:40:02.550000+02:00",
+                "virkningTil": null,
+                "virkningsaktoer": "Geodatastyrelsen"
+              }
+            }
+          ],
+          "landbrugsnotering": "Landbrug",
+          "paataenktHandling": null,
+          "registreringFra": "2019-10-10T14:40:11.288705+02:00",
+          "registreringTil": null,
+          "registreringsaktoer": "Matriklen",
+          "senesteSagLokalId": "100144425",
+          "status": "Gældende",
+          "udskiltVej": false,
+          "virkningFra": "2019-10-10T14:40:02.550000+02:00",
+          "virkningTil": null,
+          "virkningsaktoer": "Geodatastyrelsen"
+        }
+      }
+    ]
+  },
+  "Ejerlejlighed": {
+    "type": "FeatureCollection",
+    "features": []
+  },
+  "BygningPaaFremmedGrund": {
+    "BygningPaaFremmedGrundFlade": {
+      "type": "FeatureCollection",
+      "features": []
+    },
+    "BygningPaaFremmedGrundPunkt": {
+      "type": "FeatureCollection",
+      "features": []
+    }
+  }
+}

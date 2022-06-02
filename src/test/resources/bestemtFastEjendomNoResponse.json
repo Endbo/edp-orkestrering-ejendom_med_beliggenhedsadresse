@@ -1,0 +1,20 @@
+{
+  "SamletFastEjendom": {
+    "type": "FeatureCollection",
+    "features": []
+  },
+  "Ejerlejlighed": {
+    "type": "FeatureCollection",
+    "features": []
+  },
+  "BygningPaaFremmedGrund": {
+    "BygningPaaFremmedGrundFlade": {
+      "type": "FeatureCollection",
+      "features": []
+    },
+    "BygningPaaFremmedGrundPunkt": {
+      "type": "FeatureCollection",
+      "features": []
+    }
+  }
+}

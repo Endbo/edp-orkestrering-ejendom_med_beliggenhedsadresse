@@ -1,0 +1,19 @@
+metadata:
+  name: ${service.name}-config
+data:
+  application.properties: |
+    # Connection details
+    server.tomcat.max-threads=10
+
+    # If "NATIVE" doesn't work try to use "FRAMEWORK"
+    server.forward-headers-strategy=NATIVE
+  elasticapm.properties: |
+    service_name=${organization.name}-${service.name}
+    service_version=${project.version}
+    application_packages=${project.groupId}
+    server_urls=${apm.url}
+    environment=${deployment.environment}
+    log_level=WARN
+    central_config=false
+    # Only sample 20% of the transactions
+    transaction_sample_rate=0.2

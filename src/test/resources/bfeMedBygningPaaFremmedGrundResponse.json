@@ -1,0 +1,49 @@
+{
+  "SamletFastEjendom": {
+    "type": "FeatureCollection",
+    "features": []
+  },
+  "Ejerlejlighed": {
+    "type": "FeatureCollection",
+    "features": []
+  },
+  "BygningPaaFremmedGrund": {
+    "BygningPaaFremmedGrundFlade": {
+      "type": "FeatureCollection",
+      "features": []
+    },
+    "BygningPaaFremmedGrundPunkt": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "geometri": "POINT(719743.87 6176523.91)",
+            "forretningshaendelse": "Anden ændring",
+            "sekundaerForretningshaendelse": [],
+            "senesteSagLokalId": "100144948",
+            "forretningsomraade": "52.20.05",
+            "forretningsproces": "Bygning på fremmed grund fra landinspektør",
+            "id_namespace": "http://data.gov.dk/Matriklen/BygningPaaFremmedGrundPunkt",
+            "id_lokalId": "700010",
+            "paataenktHandling": null,
+            "registreringFra": "2019-05-20T19:41:29.887045+02:00",
+            "registreringsaktoer": "Matriklen",
+            "registreringTil": null,
+            "status": "Gældende",
+            "virkningFra": "2019-05-20T19:41:22.440000+02:00",
+            "virkningsaktoer": "Geodatastyrelsen",
+            "virkningTil": null,
+            "BFEnummer": 700010,
+            "opdeltIEjerlejligheder": false,
+            "oprindelse": "ESR",
+            "paaHavet": false,
+            "rids": "",
+            "ejerlejlighed": [],
+            "samletFastEjendomBFEnummer": "100095834"
+          }
+        }
+      ]
+    }
+  }
+}

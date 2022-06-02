@@ -1,0 +1,563 @@
+{
+  "BestemtFastEjendom": {
+    "SamletFastEjendom": {
+      "hovedejendomOpdeltIEjerlejligheder": false,
+      "landbrugsnotering": "Landbrug",
+      "arbejderbolig": false,
+      "erFaelleslod": false,
+      "udskiltVej": false,
+      "virkningFra": "2018-10-19T09:00:00.596000+02:00",
+      "virkningTil": null,
+      "registreringFra": "2018-10-19T09:01:33.457694+02:00",
+      "registreringTil": null,
+      "status": "Gældende",
+      "BFEnummer": 9396608,
+      "id_lokalId": "9396608",
+      "id_namespace": "http://data.gov.dk/Matriklen/SamletFastEjendom",
+      "bygningPaaFremmedGrundListe": [
+        {
+          "status": "Gældende",
+          "BFEnummer": 719505,
+          "ejerlejlighedListe": []
+        }
+      ],
+      "ejerlejlighedListe": [
+        {
+          "status": "Gældende",
+          "BFEnummer": 198918
+        },
+        {
+          "status": "Gældende",
+          "BFEnummer": 198917
+        },
+        {
+          "status": "Gældende",
+          "BFEnummer": 198916
+        }
+      ],
+      "jordstykkeListe": [
+        {
+          "delnummer": null,
+          "ejerlavskode": 950454,
+          "ejerlavsnavn": "Krajbjerg By, Hornslet",
+          "matrikelnummer": "2l",
+          "kommuneLokalId": "0706",
+          "regionLokalId": "1082",
+          "sognLokalId": "8245",
+          "registreringFra": "2018-06-03T02:17:28.598833+02:00",
+          "registreringTil": null,
+          "virkningFra": "2003-11-28T00:00:00.000000+01:00",
+          "virkningTil": null,
+          "status": "Gældende",
+          "registreretAreal": 4577,
+          "brugsretsareal": false,
+          "vandarealinkludering": "ukendt",
+          "vejareal": "0",
+          "fredskov": {
+            "fredskovsareal": null,
+            "omfang": null
+          },
+          "jordrente": {
+            "omfang": null
+          },
+          "klitfredning": {
+            "klitfredningsareal": null,
+            "omfang": null
+          },
+          "majoratskov": {
+            "majoratskovsnummer": null,
+            "omfang": null
+          },
+          "stormfald": [
+            {
+              "SNSJournalNummer": "testData",
+              "betalingsdato": "testData",
+              "omfang": "testData",
+              "ophoersdato": "testData",
+              "tilskudstype": "testData"
+            }
+          ],
+          "strandbeskyttelse": {
+            "strandbeskyttelsesareal": null,
+            "omfang": null
+          },
+          "id_lokalId": "301360",
+          "id_namespace": "http://data.gov.dk/Matriklen/Jordstykke"
+        },
+        {
+          "delnummer": null,
+          "ejerlavskode": 950454,
+          "ejerlavsnavn": "Krajbjerg By, Hornslet",
+          "matrikelnummer": "9c",
+          "kommuneLokalId": "0706",
+          "regionLokalId": "1082",
+          "sognLokalId": "8245",
+          "registreringFra": "2018-06-03T02:17:28.684819+02:00",
+          "registreringTil": null,
+          "virkningFra": "2003-11-28T00:00:00.000000+01:00",
+          "virkningTil": null,
+          "status": "Gældende",
+          "registreretAreal": 143789,
+          "brugsretsareal": false,
+          "vandarealinkludering": "ukendt",
+          "vejareal": "0",
+          "fredskov": {
+            "fredskovsareal": null,
+            "omfang": null
+          },
+          "jordrente": {
+            "omfang": null
+          },
+          "klitfredning": {
+            "klitfredningsareal": null,
+            "omfang": null
+          },
+          "majoratskov": {
+            "majoratskovsnummer": null,
+            "omfang": null
+          },
+          "stormfald": [],
+          "strandbeskyttelse": {
+            "strandbeskyttelsesareal": null,
+            "omfang": null
+          },
+          "id_lokalId": "301379",
+          "id_namespace": "http://data.gov.dk/Matriklen/Jordstykke"
+        },
+        {
+          "delnummer": null,
+          "ejerlavskode": 950454,
+          "ejerlavsnavn": "Krajbjerg By, Hornslet",
+          "matrikelnummer": "2k",
+          "kommuneLokalId": "0706",
+          "regionLokalId": "1082",
+          "sognLokalId": "8245",
+          "registreringFra": "2018-06-03T02:17:28.598334+02:00",
+          "registreringTil": null,
+          "virkningFra": "2003-11-28T00:00:00.000000+01:00",
+          "virkningTil": null,
+          "status": "Gældende",
+          "registreretAreal": 36267,
+          "brugsretsareal": false,
+          "vandarealinkludering": "ukendt",
+          "vejareal": "0",
+          "fredskov": {
+            "fredskovsareal": null,
+            "omfang": null
+          },
+          "jordrente": {
+            "omfang": null
+          },
+          "klitfredning": {
+            "klitfredningsareal": null,
+            "omfang": null
+          },
+          "majoratskov": {
+            "majoratskovsnummer": null,
+            "omfang": null
+          },
+          "stormfald": [],
+          "strandbeskyttelse": {
+            "strandbeskyttelsesareal": null,
+            "omfang": null
+          },
+          "id_lokalId": "301383",
+          "id_namespace": "http://data.gov.dk/Matriklen/Jordstykke"
+        },
+        {
+          "delnummer": null,
+          "ejerlavskode": 950454,
+          "ejerlavsnavn": "Krajbjerg By, Hornslet",
+          "matrikelnummer": "2i",
+          "kommuneLokalId": "0706",
+          "regionLokalId": "1082",
+          "sognLokalId": "8245",
+          "registreringFra": "2018-06-03T02:17:28.543778+02:00",
+          "registreringTil": null,
+          "virkningFra": "2003-11-28T00:00:00.000000+01:00",
+          "virkningTil": null,
+          "status": "Gældende",
+          "registreretAreal": 339196,
+          "brugsretsareal": false,
+          "vandarealinkludering": "ukendt",
+          "vejareal": "1005",
+          "fredskov": {
+            "fredskovsareal": null,
+            "omfang": null
+          },
+          "jordrente": {
+            "omfang": null
+          },
+          "klitfredning": {
+            "klitfredningsareal": null,
+            "omfang": null
+          },
+          "majoratskov": {
+            "majoratskovsnummer": null,
+            "omfang": null
+          },
+          "stormfald": [],
+          "strandbeskyttelse": {
+            "strandbeskyttelsesareal": null,
+            "omfang": null
+          },
+          "id_lokalId": "301386",
+          "id_namespace": "http://data.gov.dk/Matriklen/Jordstykke"
+        },
+        {
+          "delnummer": null,
+          "ejerlavskode": 950454,
+          "ejerlavsnavn": "Krajbjerg By, Hornslet",
+          "matrikelnummer": "1a",
+          "kommuneLokalId": "0706",
+          "regionLokalId": "1082",
+          "sognLokalId": "8245",
+          "registreringFra": "2018-06-03T02:17:28.683171+02:00",
+          "registreringTil": null,
+          "virkningFra": "2014-02-03T15:03:22.640000+01:00",
+          "virkningTil": null,
+          "status": "Gældende",
+          "registreretAreal": 443777,
+          "brugsretsareal": false,
+          "vandarealinkludering": "ukendt",
+          "vejareal": "6555",
+          "fredskov": {
+            "fredskovsareal": null,
+            "omfang": null
+          },
+          "jordrente": {
+            "omfang": null
+          },
+          "klitfredning": {
+            "klitfredningsareal": null,
+            "omfang": null
+          },
+          "majoratskov": {
+            "majoratskovsnummer": null,
+            "omfang": null
+          },
+          "stormfald": [],
+          "strandbeskyttelse": {
+            "strandbeskyttelsesareal": null,
+            "omfang": null
+          },
+          "id_lokalId": "301356",
+          "id_namespace": "http://data.gov.dk/Matriklen/Jordstykke"
+        },
+        {
+          "delnummer": null,
+          "ejerlavskode": 950857,
+          "ejerlavsnavn": "Vorre By, Skødstrup",
+          "matrikelnummer": "2i",
+          "kommuneLokalId": "0751",
+          "regionLokalId": "1082",
+          "sognLokalId": "8246",
+          "registreringFra": "2018-10-19T09:01:33.457694+02:00",
+          "registreringTil": null,
+          "virkningFra": "2018-10-19T09:00:00.596000+02:00",
+          "virkningTil": null,
+          "status": "Gældende",
+          "registreretAreal": 107688,
+          "brugsretsareal": false,
+          "vandarealinkludering": "ukendt",
+          "vejareal": "4545",
+          "fredskov": {
+            "fredskovsareal": null,
+            "omfang": null
+          },
+          "jordrente": {
+            "omfang": null
+          },
+          "klitfredning": {
+            "klitfredningsareal": null,
+            "omfang": null
+          },
+          "majoratskov": {
+            "majoratskovsnummer": null,
+            "omfang": null
+          },
+          "stormfald": [],
+          "strandbeskyttelse": {
+            "strandbeskyttelsesareal": null,
+            "omfang": null
+          },
+          "id_lokalId": "100112805",
+          "id_namespace": "http://data.gov.dk/Matriklen/Jordstykke"
+        },
+        {
+          "delnummer": null,
+          "ejerlavskode": 950857,
+          "ejerlavsnavn": "Vorre By, Skødstrup",
+          "matrikelnummer": "2g",
+          "kommuneLokalId": "0751",
+          "regionLokalId": "1082",
+          "sognLokalId": "8246",
+          "registreringFra": "2018-10-19T09:01:33.457694+02:00",
+          "registreringTil": null,
+          "virkningFra": "2018-10-19T09:00:00.596000+02:00",
+          "virkningTil": null,
+          "status": "Gældende",
+          "registreretAreal": 13066,
+          "brugsretsareal": false,
+          "vandarealinkludering": "ukendt",
+          "vejareal": "0",
+          "fredskov": {
+            "fredskovsareal": null,
+            "omfang": null
+          },
+          "jordrente": {
+            "omfang": null
+          },
+          "klitfredning": {
+            "klitfredningsareal": null,
+            "omfang": null
+          },
+          "majoratskov": {
+            "majoratskovsnummer": null,
+            "omfang": null
+          },
+          "stormfald": [],
+          "strandbeskyttelse": {
+            "strandbeskyttelsesareal": null,
+            "omfang": null
+          },
+          "id_lokalId": "275797",
+          "id_namespace": "http://data.gov.dk/Matriklen/Jordstykke"
+        },
+        {
+          "delnummer": null,
+          "ejerlavskode": 950857,
+          "ejerlavsnavn": "Vorre By, Skødstrup",
+          "matrikelnummer": "9a",
+          "kommuneLokalId": "0751",
+          "regionLokalId": "1082",
+          "sognLokalId": "8246",
+          "registreringFra": "2018-10-19T09:01:33.457694+02:00",
+          "registreringTil": null,
+          "virkningFra": "2018-10-19T09:00:00.596000+02:00",
+          "virkningTil": null,
+          "status": "Gældende",
+          "registreretAreal": 38350,
+          "brugsretsareal": false,
+          "vandarealinkludering": "ukendt",
+          "vejareal": "0",
+          "fredskov": {
+            "fredskovsareal": null,
+            "omfang": null
+          },
+          "jordrente": {
+            "omfang": null
+          },
+          "klitfredning": {
+            "klitfredningsareal": null,
+            "omfang": null
+          },
+          "majoratskov": {
+            "majoratskovsnummer": null,
+            "omfang": null
+          },
+          "stormfald": [],
+          "strandbeskyttelse": {
+            "strandbeskyttelsesareal": null,
+            "omfang": null
+          },
+          "id_lokalId": "275805",
+          "id_namespace": "http://data.gov.dk/Matriklen/Jordstykke"
+        },
+        {
+          "delnummer": null,
+          "ejerlavskode": 951051,
+          "ejerlavsnavn": "Balle By, Todbjerg",
+          "matrikelnummer": "5d",
+          "kommuneLokalId": "0751",
+          "regionLokalId": "1082",
+          "sognLokalId": "8247",
+          "registreringFra": "2018-06-03T03:25:11.822585+02:00",
+          "registreringTil": null,
+          "virkningFra": "2003-11-28T00:00:00.000000+01:00",
+          "virkningTil": null,
+          "status": "Gældende",
+          "registreretAreal": 37045,
+          "brugsretsareal": false,
+          "vandarealinkludering": "ukendt",
+          "vejareal": "0",
+          "fredskov": {
+            "fredskovsareal": "22000",
+            "omfang": "delvis"
+          },
+          "jordrente": {
+            "omfang": null
+          },
+          "klitfredning": {
+            "klitfredningsareal": null,
+            "omfang": null
+          },
+          "majoratskov": {
+            "majoratskovsnummer": null,
+            "omfang": null
+          },
+          "stormfald": [],
+          "strandbeskyttelse": {
+            "strandbeskyttelsesareal": null,
+            "omfang": null
+          },
+          "id_lokalId": "275867",
+          "id_namespace": "http://data.gov.dk/Matriklen/Jordstykke"
+        },
+        {
+          "delnummer": null,
+          "ejerlavskode": 951051,
+          "ejerlavsnavn": "Balle By, Todbjerg",
+          "matrikelnummer": "5a",
+          "kommuneLokalId": "0751",
+          "regionLokalId": "1082",
+          "sognLokalId": "8247",
+          "registreringFra": "2018-06-03T03:25:11.818946+02:00",
+          "registreringTil": null,
+          "virkningFra": "2009-01-28T15:34:54.483000+01:00",
+          "virkningTil": null,
+          "status": "Gældende",
+          "registreretAreal": 701353,
+          "brugsretsareal": false,
+          "vandarealinkludering": "ukendt",
+          "vejareal": "7390",
+          "fredskov": {
+            "fredskovsareal": null,
+            "omfang": null
+          },
+          "jordrente": {
+            "omfang": null
+          },
+          "klitfredning": {
+            "klitfredningsareal": null,
+            "omfang": null
+          },
+          "majoratskov": {
+            "majoratskovsnummer": null,
+            "omfang": null
+          },
+          "stormfald": [],
+          "strandbeskyttelse": {
+            "strandbeskyttelsesareal": null,
+            "omfang": null
+          },
+          "id_lokalId": "275856",
+          "id_namespace": "http://data.gov.dk/Matriklen/Jordstykke"
+        },
+        {
+          "delnummer": null,
+          "ejerlavskode": 951051,
+          "ejerlavsnavn": "Balle By, Todbjerg",
+          "matrikelnummer": "1d",
+          "kommuneLokalId": "0751",
+          "regionLokalId": "1082",
+          "sognLokalId": "8247",
+          "registreringFra": "2018-06-03T02:17:26.940948+02:00",
+          "registreringTil": null,
+          "virkningFra": "2003-11-28T00:00:00.000000+01:00",
+          "virkningTil": null,
+          "status": "Gældende",
+          "registreretAreal": 9775,
+          "brugsretsareal": false,
+          "vandarealinkludering": "ukendt",
+          "vejareal": "0",
+          "fredskov": {
+            "fredskovsareal": null,
+            "omfang": null
+          },
+          "jordrente": {
+            "omfang": null
+          },
+          "klitfredning": {
+            "klitfredningsareal": null,
+            "omfang": null
+          },
+          "majoratskov": {
+            "majoratskovsnummer": null,
+            "omfang": null
+          },
+          "stormfald": [],
+          "strandbeskyttelse": {
+            "strandbeskyttelsesareal": null,
+            "omfang": null
+          },
+          "id_lokalId": "275850",
+          "id_namespace": "http://data.gov.dk/Matriklen/Jordstykke"
+        }
+      ]
+    },
+    "Ejerlejlighed": {
+      "id_lokalId": "246488",
+      "id_namespace": "http://data.gov.dk/Matriklen/Ejerlejlighed",
+      "samletFastEjendomBFEnummer": "1310706",
+      "bygningPaaFremmedGrundBFEnummer": null,
+      "ejerlejlighedsnummer": "1",
+      "fordelingstalNaevner": 100,
+      "fordelingstalTaeller": 50,
+      "samletAreal": "159",
+      "virkningFra": "1988-11-22T00:00:00.000000+01:00",
+      "virkningTil": null,
+      "registreringFra": "2019-02-23T02:07:59.708490+01:00",
+      "registreringTil": null,
+      "status": "Gældende",
+      "BFEnummer": 246488
+    },
+    "BygningPaaFremmedGrund": {
+      "id_lokalId": "743912",
+      "id_namespace": "http://data.gov.dk/Matriklen/BygningPaaFremmedGrundPunkt",
+      "samletFastEjendomBFEnummer": "2484267",
+      "opdeltIEjerlejligheder": false,
+      "virkningFra": "2019-02-08T20:36:19.401000+01:00",
+      "virkningTil": null,
+      "registreringFra": "2019-02-08T20:36:24.628598+01:00",
+      "registreringTil": null,
+      "status": "Gældende",
+      "paaHavet": false,
+      "BFEnummer": 743912,
+      "ejerlejlighedListe": []
+    }
+  },
+  "Beliggenhedsadresse": {
+    "id_lokalId": "1ec929c6-1a6b-4a29-ae82-56f65b683beb",
+    "id_namespace": "http://data.gov.dk/Ejendomsbeliggenhedsregistret",
+    "bestemtFastEjendomBFENr": "9396608",
+    "virkningFra": "0001-01-01T15:00:00.000000+00:50",
+    "virkningTil": null,
+    "registreringFra": "2019-04-28T13:33:57.652057+02:00",
+    "registreringTil": null,
+    "status": "gældende",
+    "adresse": [
+      {
+        "adressebetegnelse": "Fagerhøjvænge 3E, 2950 Vedbæk",
+        "dørbetegnelse": "",
+        "etagebetegnelse": "",
+        "husnummer": {
+          "adgangsadressebetegnelse": "Fagerhøjvænge 3E, 2950 Vedbæk",
+          "husnummertekst": "3E",
+          "kommuneinddeling": {
+            "kommunekode": "0230",
+            "navn": "Rudersdal"
+          },
+          "navngivenVej": {
+            "udtaltVejnavn": "Fagerhøjvænge",
+            "vejadresseringsnavn": "Fagerhøjvænge",
+            "vejnavn": "Fagerhøjvænge",
+            "navngivenVejKommunedelListe": [
+              {
+                "navngivenVejKommunedel": {
+                  "kommune": "0230",
+                  "vejkode": "0160"
+                }
+              }
+            ]
+          },
+          "postnummer": {
+            "navn": "Vedbæk",
+            "postnr": "2950"
+          }
+        }
+      }
+    ],
+    "Ejendomstype": "SamletFastEjendom"
+  }
+}

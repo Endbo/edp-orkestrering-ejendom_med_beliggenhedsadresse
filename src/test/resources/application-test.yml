@@ -1,0 +1,25 @@
+spring:
+  cors:
+    url: "https://localhost:8080"
+  datasource:
+    username: sa
+    password:
+    url: jdbc:h2:mem:edp-h2
+    driver-class-name: org.h2.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: none
+    generate-ddl: true
+  h2:
+    console:
+      path: "/h2-console"
+  sql:
+    init:
+      mode: always
+      data-locations: classpath:data.sql
+      schema-locations: classpath:schema.sql
+edp:
+  web:
+    authentication:
+      enable: false

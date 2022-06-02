@@ -1,0 +1,78 @@
+metadata:
+  annotations:
+    configmap.jkube.io/update-on-change: ${service.name}
+  name: ${service.name}
+spec:
+  replicas: 1
+  template:
+    spec:
+      volumes:
+        - name: config
+          configMap:
+            name: ${service.name}-config
+            items:
+              - key: application.properties
+                path: application.properties
+              - key: elasticapm.properties
+                path: elasticapm.properties
+      containers:
+        - volumeMounts:
+            - name: config
+              mountPath: ${docker.workdir}/config
+          resources:
+            requests:
+              memory: "512Mi"
+              cpu: "50m"
+            limits:
+              memory: "768Mi"
+              cpu: "1"
+          imagePullPolicy: Always
+          env:
+            - name: ELASTIC_APM_CONFIG_FILE
+              value: /usr/local/application/config/elasticapm.properties
+            - name: ELASTIC_APM_SECRET_TOKEN
+              valueFrom:
+                secretKeyRef:
+                  name: elastic-apm-secret
+                  key: elastic.apm.token
+            - name: JAVA_TOOL_OPTIONS
+              value: -javaagent:/usr/local/dependencies/elastic-apm-agent.jar
+            - name: GATEWAY_HOSTNAME
+              value: http://edp-gateway-development-dev.ejendomsdata-dev.svc:9090
+            - name: APP_ID
+              valueFrom:
+                secretKeyRef:
+                  name: app-credentials
+                  key: app_id
+            - name: APP_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: app-credentials
+                  key: app_password
+            - name: DATASOURCE_USERNAME
+              valueFrom:
+                secretKeyRef:
+                  name: postgres-database-admin-connection
+                  key: username
+            - name: DATASOURCE_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: postgres-database-admin-connection
+                  key: password
+            - name: DATASOURCE_URL
+              valueFrom:
+                secretKeyRef:
+                  name: postgres-database-admin-connection
+                  key: url
+          name: ${service.name}
+    metadata:
+      label:
+        app: ${service.name}
+      name: ${service.name}
+      annotations:
+        co.elastic.logs/enabled: @cls.enabled@
+        co.elastic.logs/json.add_error_key: "true"
+        cls.department: @department@
+        cls.project: ejendomsdata
+        cls.logsource: edp-ork-ejendom-med-beliggenhedsadresse
+        cls.environment: nonprod

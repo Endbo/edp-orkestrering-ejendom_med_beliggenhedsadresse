@@ -1,0 +1,32 @@
+logging:
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{63}:%L %X{correlationId} - %msg%n"
+server:
+  port: 8080
+  ssl:
+    enabled: false
+application:
+  config:
+    location: file:./config/
+spring:
+  datasource:
+    username: sa
+    password:
+    url: jdbc:h2:mem:edp-h2
+    driver-class-name: org.h2.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: none
+    generate-ddl: true
+  h2:
+    console:
+      path: "/h2-console"
+edp:
+  gateway: "https://edp-gateway-development-dev.ocpt.ccta.dk"
+  credentials:
+    id: "test-username"
+    password: "test-password"
+  web:
+    authentication:
+      enable: false

@@ -1,0 +1,51 @@
+{
+  "SamletFastEjendom": {
+    "type": "FeatureCollection",
+    "features": []
+  },
+  "Ejerlejlighed": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "BFEnummer": 366311,
+          "samletFastEjendomBFEnummer": "5656737",
+          "bygningPaaFremmedGrundBFEnummer": null,
+          "ejerlejlighedskort": null,
+          "ejerlejlighedslod": [],
+          "ejerlejlighedsnummer": "1",
+          "fordelingstalNaevner": 100,
+          "fordelingstalTaeller": 25,
+          "forretningshaendelse": "Ejerlejlighed tilkommet",
+          "sekundaerForretningshaendelse": [],
+          "forretningsomraade": "52.20.05",
+          "forretningsproces": "Kvalitetsforbedring af matriklen",
+          "iBygningPaaFremmedGrund": false,
+          "id_lokalId": "366311",
+          "id_namespace": "http://data.gov.dk/Matriklen/Ejerlejlighed",
+          "paataenktHandling": null,
+          "registreringFra": "2019-02-23T12:11:22.906645+01:00",
+          "registreringTil": null,
+          "registreringsaktoer": "Matriklen",
+          "samletAreal": "76",
+          "senesteSagLokalId": "100133175",
+          "status": "Gældende",
+          "virkningFra": "2006-10-30T00:00:00.000000+01:00",
+          "virkningTil": null,
+          "virkningsaktoer": "Geodatastyrelsen"
+        }
+      }
+    ]
+  },
+  "BygningPaaFremmedGrund": {
+    "BygningPaaFremmedGrundFlade": {
+      "type": "FeatureCollection",
+      "features": []
+    },
+    "BygningPaaFremmedGrundPunkt": {
+      "type": "FeatureCollection",
+      "features": []
+    }
+  }
+}

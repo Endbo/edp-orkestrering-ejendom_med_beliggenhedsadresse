@@ -1,0 +1,164 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id_namespace": "http://data.gov.dk/Ejendomsbeliggenhedsregistret",
+        "id_lokalId": "0da6a85a-affa-4648-a885-b1c913ec8510",
+        "bestemtFastEjendomBFENr": "501031",
+        "Ejendomstype": "Ejerlejlighed",
+        "adresseManueltAngivet": false,
+        "ESDHReferenceAdresse": null,
+        "ESDHReferenceKommune": null,
+        "kommuneManueltAngivet": false,
+        "kommuneinddelingKommunekode": "0210",
+        "betegnelse": null,
+        "adresse": [
+          {
+            "datafordelerOpdateringstid": "2021-01-05T12:00:05.023771+01:00",
+            "adressebetegnelse": "Nivå Center 60, 2990 Nivå",
+            "dørbetegnelse": "",
+            "etagebetegnelse": "",
+            "forretningshændelse": "2",
+            "forretningsområde": "54.15.10.08",
+            "forretningsproces": "0",
+            "id_lokalId": "0a3f50aa-62fd-32b8-e044-0003ba298018",
+            "id_namespace": "http://data.gov.dk/dar/adresse",
+            "registreringFra": "2018-05-03T18:58:34.000000+02:00",
+            "registreringsaktør": "DAR",
+            "status": "3",
+            "virkningFra": "2000-02-05T21:29:36.000000+01:00",
+            "virkningsaktør": "Konvertering2017",
+            "husnummer": {
+              "datafordelerOpdateringstid": "2021-01-05T17:51:35.911380+01:00",
+              "adgangsadressebetegnelse": "Nivå Center 60, 2990 Nivå",
+              "adgangTilBygning": "534e8162-74c3-4725-a181-e92c3f09cda0",
+              "afstemningsområde": {
+                "id_lokalid": "708376",
+                "afstemningsområdenummer": "09",
+                "navn": "Nivå"
+              },
+              "forretningshændelse": "3",
+              "forretningsområde": "54.15.10.07",
+              "forretningsproces": "0",
+              "geoDanmarkBygning": "1012858652",
+              "husnummerretning": "POINT(0.425779291565072 0.90482705246602)",
+              "husnummertekst": "60",
+              "id_lokalId": "0a3f5080-91b4-32b8-e044-0003ba298018",
+              "id_namespace": "http://data.gov.dk/dar/husnummer",
+              "jordstykke": "771450",
+              "kommuneinddeling": {
+                "id_lokalid": "389123",
+                "kommunekode": "0210",
+                "navn": "Fredensborg"
+              },
+              "menighedsrådsafstemningsområde": {
+                "id_lokalid": "574743",
+                "mrafstemningsområdenummer": "4",
+                "navn": "Karlebo"
+              },
+              "registreringFra": "2018-07-04T18:00:00.000000+02:00",
+              "registreringsaktør": "DAR",
+              "sogneinddeling": {
+                "id_lokalid": "113589",
+                "sognekode": "7452",
+                "navn": "Karlebo"
+              },
+              "status": "3",
+              "vejmidte": "0210-0507",
+              "virkningFra": "2018-07-04T18:00:00.000000+02:00",
+              "virkningsaktør": "DARTransition",
+              "adgangspunkt": {
+                "datafordelerOpdateringstid": "2021-01-05T13:16:19.171043+01:00",
+                "oprindelse_kilde": "Ekstern",
+                "oprindelse_nøjagtighedsklasse": "A",
+                "oprindelse_registrering": "2015-03-23T00:00:00.000000+01:00",
+                "oprindelse_tekniskStandard": "TN",
+                "position": "POINT(718835.35 6204397.41)"
+              },
+              "vejpunkt": {
+                "datafordelerOpdateringstid": "2021-01-05T13:55:23.762203+01:00",
+                "oprindelse_kilde": "Ekstern",
+                "oprindelse_nøjagtighedsklasse": "B",
+                "oprindelse_registrering": "2018-05-03T14:08:02.125000+02:00",
+                "oprindelse_tekniskStandard": "V0",
+                "position": "POINT(718861.026970721 6204446.72546437)"
+              },
+              "navngivenVej": {
+                "datafordelerOpdateringstid": "2021-01-05T19:54:07.815023+01:00",
+                "administreresAfKommune": "0210",
+                "forretningshændelse": "20",
+                "forretningsområde": "10.00.00.00",
+                "forretningsproces": "0",
+                "id_lokalId": "e2bc0d7f-759e-44a5-9ba8-f04758520b2f",
+                "id_namespace": "http://data.gov.dk/dar/navngivenvej",
+                "registreringFra": "2019-12-19T20:05:22.695207+01:00",
+                "registreringsaktør": "DAR",
+                "status": "3",
+                "udtaltVejnavn": "Nivå Center",
+                "vejadresseringsnavn": "Nivå Center",
+                "vejnavn": "Nivå Center",
+                "vejnavnebeliggenhed_oprindelse_kilde": "Ekstern",
+                "vejnavnebeliggenhed_oprindelse_nøjagtighedsklasse": "B",
+                "vejnavnebeliggenhed_oprindelse_registrering": "2019-12-19T20:05:22.695207+01:00",
+                "vejnavnebeliggenhed_oprindelse_tekniskStandard": "NO",
+                "vejnavnebeliggenhed_vejnavnelinje": "MULTILINESTRING((718886.62 6204476.34,718886.48 6204481.92,718870.1 6204490.12,718865.31 6204488.24,718861.21 6204477.88,718848.78 6204483.91,718842.33 6204472.24),(718861.21 6204477.88,718874.13 6204472.12,718883.02 6204468.16,718886.62 6204476.34,718910.27 6204467.05,718913.16 6204473.68,718922.81 6204495.75,718925.41 6204501.78),(718829.02 6204461.67,718848.88 6204453.05,718861.46 6204446.5,718872.43 6204468.4),(718910.27 6204467.05,718935.07 6204453.64,718961.08 6204439.73),(718861.46 6204446.5,718879.51 6204437.87,718891.52 6204462.3,718905.95 6204455.42),(718879.51 6204437.87,718895.07 6204430.44,718905.95 6204455.42,718923.34 6204447.13),(718912.02 6204422.34,718912.77 6204421.98,718928.35 6204414.66,718938.78 6204439.77,718923.34 6204447.13,718912.02 6204422.34,718895.07 6204430.44),(718945.59 6204406.55,718942.6 6204400.14),(718928.35 6204414.66,718945.59 6204406.55,718950.27 6204416.57,719000.55 6204393.45,719013.31 6204387.61),(718938.64 6204391.66,718934.27 6204382.33),(719004.8 6204369.51,719001.94 6204363.43,718996.85 6204353.67,718934.27 6204382.33,718930.81 6204374.94,718887.43 6204397.32,718895.08 6204412.99,718938.64 6204391.66,718939.25 6204392.96,718942.6 6204400.14,719004.8 6204369.51,719013.31 6204387.61,719026.49 6204381.58,719029.16 6204390.36,719029.96 6204396.96,719029.22 6204402.67,719026.25 6204407.36,719022.62 6204410.86,719014.24 6204415.82,719000 6204422.54,718988.13 6204428.14,718961.08 6204439.73,718950.27 6204416.57),(718930.81 6204374.94,718928.79 6204370.64,718930.69 6204364.62,718959.97 6204350.72),(719026.49 6204381.58,719017.86 6204362.15,719004.23 6204333.64,719002.71 6204330.6,719000 6204325.19,718991.94 6204309.05),(718978.33 6204261.25,718981.95 6204262.15,718984.79 6204264.18,718987.11 6204269.96,718988.84 6204281.06,718990.44 6204298.72,718991.94 6204309.05,718986.11 6204306.78,718979.17 6204303.11,718977.08 6204301.57,718974.95 6204299.99,718971.44 6204293.09,718966.74 6204282.99,718964.89 6204278.17,718964.89 6204273.82,718965.2 6204270.69,718966.04 6204267.18,718969.09 6204263.89,718973.25 6204261.9,718978.33 6204261.25),(718978.33 6204261.25,718977.55 6204244.54,718976.01 6204238.67,718969.11 6204223.68,718968.25 6204221.82,718963.68 6204212.25,718960.68 6204207.14,718957.68 6204202.87,718952 6204196.27,718945.77 6204191.53,718943.66 6204190.14,718936.53 6204185.8,718931.19 6204182.32,718927.17 6204178.59,718924.2 6204175.66,718921.93 6204172.74,718919.8 6204169.63,718915.69 6204161.4,718906.8 6204141.32,718902.5 6204132.05,718901.36 6204129.59,718897.12 6204121.06,718894.76 6204118.14,718892 6204114.72,718887.78 6204111.24,718877.4 6204104.64,718864.61 6204095.06,718857.28 6204090.29))",
+                "virkningFra": "2019-12-19T20:05:22.695207+01:00",
+                "virkningsaktør": "AjourføreGeoDKTilknytning",
+                "navngivenVejKommunedelList": [
+                  {
+                    "id_lokalid": "5c9c8bfd-4eae-11e8-93fd-066cff24d637",
+                    "navngivenVejKommunedel": {
+                      "datafordelerOpdateringstid": "2021-01-05T19:57:01.236353+01:00",
+                      "forretningshændelse": "20",
+                      "forretningsområde": "10.00.00.00",
+                      "forretningsproces": "0",
+                      "id_lokalId": "5c9c8bfd-4eae-11e8-93fd-066cff24d637",
+                      "id_namespace": "http://data.gov.dk/dar/navngivenvejkommunedel",
+                      "kommune": "0210",
+                      "navngivenVej": "e2bc0d7f-759e-44a5-9ba8-f04758520b2f",
+                      "registreringFra": "2019-12-19T20:05:22.695207+01:00",
+                      "registreringsaktør": "DAR",
+                      "status": "3",
+                      "vejkode": "0507",
+                      "virkningFra": "2019-12-19T20:05:22.695207+01:00",
+                      "virkningsaktør": "AjourføreGeoDKTilknytning"
+                    }
+                  }
+                ]
+              },
+              "postnummer": {
+                "datafordelerOpdateringstid": "2021-01-05T20:00:52.037006+01:00",
+                "forretningshændelse": "4",
+                "forretningsområde": "54.15.10.25",
+                "forretningsproces": "0",
+                "id_lokalId": "b04fbd87-8b57-4508-a7c8-abc2bba7defa",
+                "id_namespace": "http://data.gov.dk/dar/postnummer",
+                "navn": "Nivå",
+                "postnr": "2990",
+                "postnummerinddeling": "192990",
+                "registreringFra": "2018-05-03T18:58:34.000000+02:00",
+                "registreringsaktør": "DAR",
+                "status": "3",
+                "virkningFra": "1753-01-01T00:50:00.000000+00:50",
+                "virkningsaktør": "Konvertering2017"
+              }
+            }
+          }
+        ],
+        "husnummer": [],
+        "status": "historisk",
+        "forretningshaendelse": "ejendomsforandring",
+        "forretningsomraade": "52.20.05",
+        "forretningsproces": "konverteretFraESR",
+        "virkningFra": "2022-02-24T08:40:11.486000+01:00",
+        "virkningTil": null,
+        "virkningsaktoer": "Geodatastyrelsen",
+        "registreringFra": "2022-02-24T08:40:11.486000+01:00",
+        "registreringTil": null,
+        "registreringsaktoer": "Ejendomsbeliggenhedsregister"
+      }
+    }
+  ]
+}

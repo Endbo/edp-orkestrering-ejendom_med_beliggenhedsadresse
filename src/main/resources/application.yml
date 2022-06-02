@@ -1,0 +1,75 @@
+server:
+  port: 8443
+  ssl:
+    enabled: true
+    key-store-type: JKS
+    key-store: /var/run/secrets/jkube.io/tls-jks/keystore.jks
+    key-store-password: changeit
+  tomcat:
+    accesslog:
+      enabled: true
+      buffered: false
+      # it is important to understand what the options means:
+      # 'directory/prefix + suffix + file-date-format' will be
+      # the file that tomcat will try to open.
+      # /dev/stdout is standard output, so we want tomcat
+      # to write to that fd. Then, we need to play with
+      # directory, prefix, suffix and file-date-format to match our desired path
+      directory: "/dev"
+      prefix: stdout
+      # Don't use empty double quotes, see below
+      suffix: ~
+      file-date-format=: ~
+      # Setup json logging for for access log from tomcat:
+      # Logging patterns can be found here: https://tomcat.apache.org/tomcat-8.0-doc/config/valve.html
+      pattern: '{"hostname": "%h", "username.logical": "%l", "username.authenticated": "%u", "time": "%t", "request": "%r", "status": "%s", "bytes": "%b"}'
+  fixedrate:
+    in:
+      milliseconds: 5000
+info:
+  app:
+    name: edp-ork-ejendom-med-beliggenhedsadresse
+    version: "@revision@"
+management:
+  endpoints:
+    enabled-by-default: true
+    web:
+      exposure:
+        include: "health,info"
+  endpoint:
+    info:
+      enabled: true
+application:
+  config:
+    location: file:./config/
+spring:
+  main:
+    banner-mode: "off"
+  datasource:
+    username: ${DATASOURCE_USERNAME}
+    password: ${DATASOURCE_PASSWORD}
+    url: ${DATASOURCE_URL}
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+# Set logging pattern to json.
+# %X{X-Correlation-Id} is an example of printing a variable from a request to log.
+logging:
+  pattern:
+    console: "{\"Hændelse.LogTidspunkt\": \"%d\", \"Hændelse.LogNiveau\": \"%p\", \"TransaktionID\": \"%X{X-Correlation-Id}\", \"Hændelse.LogNavn\": \"%logger{63}:%L\", \"Hændelse.LogBesked\": \"%replace(%m%wEx{6}){'[\r\n]+', '\\n'}%nopex\"}%n"
+
+edp:
+  gateway: ${GATEWAY_HOSTNAME}
+  bfePath: "/Matrikel/Matrikel/1/rest/BestemtFastEjendom"
+  ebrPath: "/EBR/Ejendomsbeliggenhed/1/rest/Ejendomsbeliggenhed"
+  credentials:
+    id: ${APP_ID}
+    password: ${APP_PASSWORD}
+  web:
+    authentication:
+      ignorePaths:
+        - /actuator.*
+        - /swagger-ui.*
+        - /swagger-resources.*
+        - ^.*api-docs.*$
